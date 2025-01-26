@@ -26,6 +26,14 @@ The output plots are saved in the results folder.
 All the computed vocabularies and features have been saved a pickle files in the pickle_files folder, to save time by directly using them once they have been computed for the first time.
 We used random seed to ensure reproducible splits everytime.
 
+In the build_vocabulary function, we grayscaled the images to ensure 2D images for SIFT computation.
+
+In the get_bags_of_sifts we modified it such that it can use vocabs from .pkl files if they are already saved to save time and computation.
+
+in the svm_classify function, we changed C from 700 to 100 as it was giving better accuracies due to less penalty.
+
+In the nearest_neighbor_classify function, we added the categories of our new dataset in the given code.
+
 Install dependencies using:
 
 ```bash
