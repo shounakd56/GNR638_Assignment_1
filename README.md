@@ -98,23 +98,30 @@ pip install scikit-learn matplotlib opencv-python ipykernel
          weighted avg     0.7227    0.7150    0.7064       421
 
 ### tsne Plots:
+#### 1. t-SNE Visualization of SIFT Descriptors
+- **For 100 Images:**
+  ![t-SNE for SIFT descriptors (100 images)](results/tsne_keypoints.png)
 
-![tsne for image SIFT descriptors for 100 images](results/tsne_keypoints.png)
+- **For 20 Images (Colored):**
+  ![t-SNE for SIFT descriptors (20 images, colored)](results/tsne_keypoints_colored.png)
 
+---
 
-![tsne for image SIFT descriptors for 20 images (coloured)](results/tsne_keypoints_colored.png)
+#### 2. t-SNE Visualization of Vocabulary Cluster Centers
+- **Vocabulary Size = 50:**
+  ![t-SNE for vocab cluster centers (vocab size = 50)](results/tsne_vocab_50.png)
 
+- **Vocabulary Size = 300:**
+  ![t-SNE for vocab cluster centers (vocab size = 300)](results/tsne_vocab_300.png)
 
-![tsne for vocab cluster centers with Vocab Size = 50](results/tsne_vocab_50.png)
+---
 
+#### 3. t-SNE Visualization of Image Features
+- **Vocabulary Size = 50:**
+  ![t-SNE for image features (vocab size = 50)](results/tsne_features_50.png)
 
-![tsne for vocab cluster centers with Vocab Size = 300](results/tsne_vocab_300.png)
-
-
-![tsne for image features with Vocab Size = 50](results/tsne_features_50.png)
-
-
-![tsne for image features with Vocab Size = 300](results/tsne_features_300.png)
+- **Vocabulary Size = 300:**
+  ![t-SNE for image features (vocab size = 300)](results/tsne_features_300.png)
 
 
 
