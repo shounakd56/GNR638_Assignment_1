@@ -31,21 +31,21 @@ pip install scikit-learn matplotlib opencv-python ipykernel
 
 ## Results
 
-   ###Accuracy vs. Vocabulary Size:
-       - Codebook Size 5: Validation Accuracy = 0.2143
-       - Codebook Size 10: Validation Accuracy = 0.3095
-       - Codebook Size 20: Validation Accuracy = 0.4333
-       - Codebook Size 30: Validation Accuracy = 0.5095
-       - Codebook Size 40: Validation Accuracy = 0.5810
-       - Codebook Size 50: Validation Accuracy = 0.6190
-       - Codebook Size 75: Validation Accuracy = 0.6476
-       - Codebook Size 100: Validation Accuracy = 0.6905
-       - Codebook Size 125: Validation Accuracy = 0.6905
-       - Codebook Size 150: Validation Accuracy = 0.6952
-       - Codebook Size 200: Validation Accuracy = 0.7048
-       - Codebook Size 250: Validation Accuracy = 0.7524
-       - Codebook Size 300: Validation Accuracy = 0.7619
-       - Codebook Size 400: Validation Accuracy = 0.7524
+###Accuracy vs. Vocabulary Size:
+- Codebook Size 5: Validation Accuracy = 0.2143
+- Codebook Size 10: Validation Accuracy = 0.3095
+- Codebook Size 20: Validation Accuracy = 0.4333
+- Codebook Size 30: Validation Accuracy = 0.5095
+- Codebook Size 40: Validation Accuracy = 0.5810
+- Codebook Size 50: Validation Accuracy = 0.6190
+- Codebook Size 75: Validation Accuracy = 0.6476
+- Codebook Size 100: Validation Accuracy = 0.6905
+- Codebook Size 125: Validation Accuracy = 0.6905
+- Codebook Size 150: Validation Accuracy = 0.6952
+- Codebook Size 200: Validation Accuracy = 0.7048
+- Codebook Size 250: Validation Accuracy = 0.7524
+- Codebook Size 300: Validation Accuracy = 0.7619
+- Codebook Size 400: Validation Accuracy = 0.7524
 
    Best Vocabulary Size: 300
    Validation Accuracy (Best): 0.7619
