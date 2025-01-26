@@ -12,11 +12,11 @@ This repository contains the solution for Assignment 1 of the GNR 638 course.
 
 1. Run the main script:
    ```bash
-   python /code/main.py
+   python code/main.py
    ```
 2. For tsne plots, run:
    ```bash
-   python /code/plot_tsne.py
+   python code/plot_tsne.py
    ```
 The output plots are saved in the results folder.
 All the computed vocabularies and features have been saved a pickle files in the pickle_files folder, to save time by directly using them once they have been computed for the first time.
