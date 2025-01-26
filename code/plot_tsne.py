@@ -17,7 +17,7 @@ def load_data(data_path, categories):
         labels.extend([category] * len(category_images))
     return image_paths, labels
 
-DATA_PATH = '/Images'
+DATA_PATH = 'Images'
 
 CATEGORIES = [d for d in os.listdir(DATA_PATH) if os.path.isdir(os.path.join(DATA_PATH, d))]
 
@@ -41,17 +41,17 @@ plt.title("t-SNE Visualization of SIFT Descriptors")
 plt.xlabel("t-SNE Component 1")
 plt.ylabel("t-SNE Component 2")
 plt.grid(True)
-tsne_plot_path = "/results/tsne_keypoints.png"
+tsne_plot_path = "results/tsne_keypoints.png"
 plt.savefig(tsne_plot_path, format='png', dpi=300, bbox_inches='tight')
 plt.show()
 print(f"t-SNE plot saved")
 
 
-train_feats_file_50 = '/pickle_files/features_50_train.pkl'
-train_feats_file_300 = '/pickle_files/features_300_train.pkl'
+train_feats_file_50 = 'pickle_files/features_50_train.pkl'
+train_feats_file_300 = 'pickle_files/features_300_train.pkl'
 
-vocab_50 = '/pickle_files/vocab_50.pkl'
-vocab_300 = '/pickle_files/vocab_300.pkl'
+vocab_50 = 'pickle_files/vocab_50.pkl'
+vocab_300 = 'pickle_files/vocab_300.pkl'
 
 print("Plotting tsne for image features with Vocab Size = 50")
 with open(train_feats_file_50, 'rb') as f:
@@ -66,7 +66,7 @@ plt.title("t-SNE Visualization of image features with Vocab Size = 50")
 plt.xlabel("t-SNE Component 1")
 plt.ylabel("t-SNE Component 2")
 plt.grid(True)
-tsne_plot_path = "/results/tsne_features_50.png"
+tsne_plot_path = "results/tsne_features_50.png"
 plt.savefig(tsne_plot_path, format='png', dpi=300, bbox_inches='tight')
 plt.show()
 print(f"t-SNE plot saved")
@@ -84,7 +84,7 @@ plt.title("t-SNE Visualization of image features with Vocab Size = 300")
 plt.xlabel("t-SNE Component 1")
 plt.ylabel("t-SNE Component 2")
 plt.grid(True)
-tsne_plot_path = "/results/tsne_features_300.png"
+tsne_plot_path = "results/tsne_features_300.png"
 plt.savefig(tsne_plot_path, format='png', dpi=300, bbox_inches='tight')
 plt.show()
 print(f"t-SNE plot saved")
@@ -102,7 +102,7 @@ plt.title("t-SNE Visualization of vocab cluster centers with Vocab Size = 50")
 plt.xlabel("t-SNE Component 1")
 plt.ylabel("t-SNE Component 2")
 plt.grid(True)
-tsne_plot_path = "/results/tsne_vocab_50.png"
+tsne_plot_path = "results/tsne_vocab_50.png"
 plt.savefig(tsne_plot_path, format='png', dpi=300, bbox_inches='tight')
 plt.show()
 print(f"t-SNE plot saved")
@@ -120,7 +120,7 @@ plt.title("t-SNE Visualization of vocab cluster centers with Vocab Size = 300")
 plt.xlabel("t-SNE Component 1")
 plt.ylabel("t-SNE Component 2")
 plt.grid(True)
-tsne_plot_path = "/results/tsne_vocab_300.png"
+tsne_plot_path = "results/tsne_vocab_300.png"
 plt.savefig(tsne_plot_path, format='png', dpi=300, bbox_inches='tight')
 plt.show()
 print(f"t-SNE plot saved")
