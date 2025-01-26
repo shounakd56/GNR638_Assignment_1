@@ -97,5 +97,14 @@ pip install scikit-learn matplotlib opencv-python ipykernel
             macro avg     0.7231    0.7150    0.7066       421
          weighted avg     0.7227    0.7150    0.7064       421
 
+### tsne Plots:
+
+![tsne for image SIFT descriptors for 100 images](results/tsne_keypoints.png)
+![tsne for image SIFT descriptors for 20 images (coloured)](results/tsne_keypoints_coloured.png)
+![tsne for vocab cluster centers with Vocab Size = 50](results/tsne_vocab_50.png)
+![tsne for vocab cluster centers with Vocab Size = 300](results/tsne_vocab_300.png)
+![tsne for image features with Vocab Size = 50](results/tsne_features_50.png)
+![tsne for image features with Vocab Size = 300](results/tsne_features_300.png)
+
 
 
