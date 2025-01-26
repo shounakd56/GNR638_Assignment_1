@@ -100,7 +100,7 @@ pip install scikit-learn matplotlib opencv-python ipykernel
 ### tsne Plots:
 
 ![tsne for image SIFT descriptors for 100 images](results/tsne_keypoints.png)
-![tsne for image SIFT descriptors for 20 images (coloured)](results/tsne_keypoints_coloured.png)
+![tsne for image SIFT descriptors for 20 images (coloured)](results/tsne_keypoints_colored.png)
 ![tsne for vocab cluster centers with Vocab Size = 50](results/tsne_vocab_50.png)
 ![tsne for vocab cluster centers with Vocab Size = 300](results/tsne_vocab_300.png)
 ![tsne for image features with Vocab Size = 50](results/tsne_features_50.png)
