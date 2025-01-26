@@ -22,6 +22,14 @@ This repository contains the solution for Assignment 1 of the GNR 638 course.
    ```bash
    python code/plot_tsne.py
    ```
+
+Install dependencies using:
+
+```bash
+conda install -c conda-forge cyvlfeat
+pip install scikit-learn matplotlib opencv-python ipykernel
+```
+
 The output plots are saved in the results folder.
 All the computed vocabularies and features have been saved a pickle files in the pickle_files folder, to save time by directly using them once they have been computed for the first time.
 We used random seed to ensure reproducible splits everytime.
@@ -34,12 +42,6 @@ in the svm_classify function, we changed C from 700 to 100 as it was giving bett
 
 In the nearest_neighbor_classify function, we added the categories of our new dataset in the given code.
 
-Install dependencies using:
-
-```bash
-conda install -c conda-forge cyvlfeat
-pip install scikit-learn matplotlib opencv-python ipykernel
-```
 
 ## Results
 
