@@ -54,6 +54,7 @@ pip install scikit-learn matplotlib opencv-python ipykernel
  ###  Validation Accuracy (Best): 0.7619
  ###  Test Accuracy using SVC: 0.7149643705463183
  ###  Test Accuracy using KNN: 0.7125890736342043
+![Confusion Matrix](results/confusion_matrix.png)
 
   ### Class-wise Accuracy:
                       precision    recall  f1-score   support
