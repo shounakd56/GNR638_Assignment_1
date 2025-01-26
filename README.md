@@ -31,7 +31,7 @@ pip install scikit-learn matplotlib opencv-python ipykernel
 
 ## Results
 
-###Accuracy vs. Vocabulary Size:
+### Accuracy vs. Vocabulary Size:
 - Codebook Size 5: Validation Accuracy = 0.2143
 - Codebook Size 10: Validation Accuracy = 0.3095
 - Codebook Size 20: Validation Accuracy = 0.4333
@@ -47,12 +47,12 @@ pip install scikit-learn matplotlib opencv-python ipykernel
 - Codebook Size 300: Validation Accuracy = 0.7619
 - Codebook Size 400: Validation Accuracy = 0.7524
 
-   Best Vocabulary Size: 300
-   Validation Accuracy (Best): 0.7619
-   Test Accuracy using SVC: 0.7149643705463183
-   Test Accuracy using KNN: 0.7125890736342043
+ ###  Best Vocabulary Size: 300
+ ###  Validation Accuracy (Best): 0.7619
+ ###  Test Accuracy using SVC: 0.7149643705463183
+ ###  Test Accuracy using KNN: 0.7125890736342043
 
-   Class-wise Accuracy:
+  ### Class-wise Accuracy:
                       precision    recall  f1-score   support
    
               forest     1.0000    0.5500    0.7097        20
@@ -66,7 +66,7 @@ pip install scikit-learn matplotlib opencv-python ipykernel
                beach     0.9091    0.5000    0.6452        20
            buildings     0.6500    0.6500    0.6500        20
       mobilehomepark     0.9524    1.0000    0.9756        20
-   sparseresidential     0.8235    0.7000    0.7568        20
+    sparseresidential    0.8235    0.7000    0.7568        20
           parkinglot     0.5714    0.6000    0.5854        20
               harbor     0.7222    0.6500    0.6842        20
               runway     0.6000    0.7500    0.6667        20
@@ -74,7 +74,7 @@ pip install scikit-learn matplotlib opencv-python ipykernel
             overpass     0.6154    0.4000    0.4848        20
                river     0.7500    0.9000    0.8182        20
         storagetanks     0.5833    0.3500    0.4375        20
-   mediumresidential     0.5333    0.4000    0.4571        20
+    mediumresidential    0.5333    0.4000    0.4571        20
          tenniscourt     0.6818    0.7500    0.7143        20
 
          accuracy                         0.7150       421
