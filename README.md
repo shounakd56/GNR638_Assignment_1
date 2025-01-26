@@ -10,11 +10,15 @@ This repository contains the solution for Assignment 1 of the GNR 638 course.
 
 ## How to Run
 
-1. Run the main script:
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/shounakd56/GNR638_Assignment_1.git
+   ```
+2. Run the main script:
    ```bash
    python code/main.py
    ```
-2. For tsne plots, run:
+3. For tsne plots, run:
    ```bash
    python code/plot_tsne.py
    ```
