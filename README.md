@@ -31,7 +31,7 @@ pip install scikit-learn matplotlib opencv-python ipykernel
 
 ## Results
 
-   Accuracy vs. Vocabulary Size:
+   ###Accuracy vs. Vocabulary Size:
        - Codebook Size 5: Validation Accuracy = 0.2143
        - Codebook Size 10: Validation Accuracy = 0.3095
        - Codebook Size 20: Validation Accuracy = 0.4333
