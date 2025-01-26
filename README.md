@@ -81,9 +81,9 @@ pip install scikit-learn matplotlib opencv-python ipykernel
     mediumresidential    0.5333    0.4000    0.4571        20
          tenniscourt     0.6818    0.7500    0.7143        20
 
-         accuracy                         0.7150       421
-        macro avg     0.7231    0.7150    0.7066       421
-     weighted avg     0.7227    0.7150    0.7064       421
+             accuracy                         0.7150       421
+            macro avg     0.7231    0.7150    0.7066       421
+         weighted avg     0.7227    0.7150    0.7064       421
 
 
 
