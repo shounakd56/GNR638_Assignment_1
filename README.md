@@ -105,16 +105,12 @@ pip install scikit-learn matplotlib opencv-python ipykernel
 - **For 20 Images (Colored):**
   ![t-SNE for SIFT descriptors (20 images, colored)](results/tsne_keypoints_colored.png)
 
----
-
 #### 2. t-SNE Visualization of Vocabulary Cluster Centers
 - **Vocabulary Size = 50:**
   ![t-SNE for vocab cluster centers (vocab size = 50)](results/tsne_vocab_50.png)
 
 - **Vocabulary Size = 300:**
   ![t-SNE for vocab cluster centers (vocab size = 300)](results/tsne_vocab_300.png)
-
----
 
 #### 3. t-SNE Visualization of Image Features
 - **Vocabulary Size = 50:**
