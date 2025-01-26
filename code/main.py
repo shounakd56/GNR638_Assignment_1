@@ -13,7 +13,7 @@ from get_bags_of_sifts import get_bags_of_sifts
 from svm_classify import svm_classify
 from nearest_neighbor_classify import nearest_neighbor_classify
 
-DATA_PATH = '/Images'
+DATA_PATH = 'Images'
 
 CATEGORIES = [d for d in os.listdir(DATA_PATH) if os.path.isdir(os.path.join(DATA_PATH, d))]
 # print(CATEGORIES)
@@ -52,7 +52,7 @@ def plot_confusion_matrix(cm, category, title='Confusion matrix', cmap=plt.cm.Bl
     plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
-    plot_file_path = "/results/confusion_matrix.png"
+    plot_file_path = "results/confusion_matrix.png"
     plt.savefig(plot_file_path, format='png', dpi=300, bbox_inches='tight')
 def main():
     print("Codewords Array: ",CODEWORDS)
@@ -72,7 +72,7 @@ def main():
     for vocab_size in CODEWORDS:
         print(f"Validation for vocab size: {vocab_size}")
 
-        vocab_file_path = f'/pickle_files/vocab_{vocab_size}.pkl' # Path to store vocab for this Vocab size as a pickle file
+        vocab_file_path = f'pickle_files/vocab_{vocab_size}.pkl' # Path to store vocab for this Vocab size as a pickle file
 
         if os.path.exists(vocab_file_path):
             print(f"Vocabulary file {vocab_file_path} already exists, so skipping vocabulary building")
@@ -84,8 +84,8 @@ def main():
             print(f"Vocabulary saved to {vocab_file_path}.")
 
         # Paths for storing the train and validation feature pickle files
-        train_feats_file = f'/pickle_files/features_{vocab_size}_train.pkl'
-        val_feats_file = f'/pickle_files/features_{vocab_size}_val.pkl'
+        train_feats_file = f'pickle_files/features_{vocab_size}_train.pkl'
+        val_feats_file = f'pickle_files/features_{vocab_size}_val.pkl'
 
         # Train features
         if os.path.exists(train_feats_file):
@@ -132,13 +132,13 @@ def main():
     plt.title("Accuracy vs. Number of Codewords")
     plt.grid(True)
     plt.legend()
-    plot_file_path = "/results/accuracy_vs_codewords.png"
+    plot_file_path = "results/accuracy_vs_codewords.png"
     plt.savefig(plot_file_path, format='png', dpi=300, bbox_inches='tight')
     plt.show()
 
     # Final evaluation on test set using the best vocabulary size
     print("Final Evaluation on test set")
-    best_train_feats = f'/pickle_files/features_{best_vocab_size}_train.pkl'
+    best_train_feats = f'pickle_files/features_{best_vocab_size}_train.pkl'
     with open(best_train_feats, 'rb') as f:
         train_feats = pickle.load(f)  # Loading the existing train features
     test_feats = get_bags_of_sifts(test_paths, best_vocab_size)
