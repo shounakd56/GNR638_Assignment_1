@@ -64,6 +64,8 @@ In the nearest_neighbor_classify function, we added the categories of our new da
 - Codebook Size 300: Validation Accuracy = 0.7619
 - Codebook Size 400: Validation Accuracy = 0.7524
 
+We can see that the validation accuracy keeps increasing as we increase the Vocab size upto a certain mark(300), but increasing further(400) leads to over fitting and makes the features too complex, leading to lesser validation accuracy.
+
  ###  Best Vocabulary Size: 300
  ###  Validation Accuracy (Best): 0.7619
  ###  Test Accuracy using SVC: 0.7149643705463183
